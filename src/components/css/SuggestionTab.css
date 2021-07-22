@@ -1,0 +1,28 @@
+.suggestionTab {
+  background-color: #f2f2f2;
+  padding: 7px 16px;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.suggestionTab > p {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.suggestionTab:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.selected_tab {
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+
+.selected:hover {
+  background-color: gray;
+}
