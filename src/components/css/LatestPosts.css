@@ -1,0 +1,12 @@
+.latestPosts {
+  padding: 20px 20px;
+}
+
+.latestPosts > h2 {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.latestPosts__cards {
+  display: flex;
+}

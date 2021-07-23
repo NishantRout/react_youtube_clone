@@ -1,6 +1,8 @@
 .recommendedVideos {
   flex: 0.86;
   background-color: #f9f9f9;
+  height: 94vh;
+  overflow-y: scroll;
 }
 
 .recommendedVideos > hr {

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./css/RecommendedVideos.css";
+import LatestPosts from "./LatestPosts";
 import SuggestionBar from "./SuggestionBar";
 import VideoCard from "./VideoCard";
 
@@ -105,6 +106,7 @@ function RecommendedVideos() {
         )}
       </div>
       <hr />
+      <LatestPosts />
     </div>
   );
 }
