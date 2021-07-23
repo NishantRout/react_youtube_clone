@@ -8,9 +8,30 @@
   height: 205px;
 }
 
-.video__info {
+.videoCard__info {
   display: flex;
   margin-top: 8px;
+  max-width: 350px;
+}
+
+.videoCard__text {
+  margin-left: 10px;
+}
+
+.videoCard__text > h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.videoCard__text > p {
+  font-size: 14px;
+  color: #606060;
+  font-weight: 500;
+}
+
+.videoCard__avatar {
+  height: 32px !important;
+  width: 32px !important;
 }
 
 @media only screen and (max-width: 600px) {
