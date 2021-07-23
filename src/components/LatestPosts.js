@@ -1,3 +1,4 @@
+import { ExpandMore } from "@material-ui/icons";
 import React, { useState } from "react";
 import "./css/LatestPosts.css";
 import PostCard from "./PostCard";
@@ -79,6 +80,9 @@ function LatestPosts() {
             />
           )
         )}
+      </div>
+      <div className="latestPosts__expand">
+        <ExpandMore className="" />
       </div>
     </div>
   );

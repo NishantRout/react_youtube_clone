@@ -107,6 +107,21 @@ function RecommendedVideos() {
       </div>
       <hr />
       <LatestPosts />
+      <hr />
+      <div className="recommendedVideos__videos">
+        {videoCards.map(
+          ({ title, channel, views, timestamp, channelImage, image }) => (
+            <VideoCard
+              title={title}
+              channel={channel}
+              views={views}
+              timestamp={timestamp}
+              channelImage={channelImage}
+              image={image}
+            />
+          )
+        )}
+      </div>
     </div>
   );
 }

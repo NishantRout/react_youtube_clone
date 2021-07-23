@@ -9,4 +9,21 @@
 
 .latestPosts__cards {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.latestPosts__expand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #909090;
+}
+
+.latestPosts__expand:hover {
+  background-color: #ececec;
+  cursor: pointer;
 }

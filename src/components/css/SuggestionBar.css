@@ -6,6 +6,9 @@
   display: flex;
   width: 84vw;
   overflow-x: scroll;
+  top: 0;
+  position: sticky;
+  z-index: 100;
 }
 
 .suggestionBar::-webkit-scrollbar {
