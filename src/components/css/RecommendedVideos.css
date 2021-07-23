@@ -3,6 +3,14 @@
   background-color: #f9f9f9;
 }
 
+.recommendedVideos > hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+  height: 4px;
+  background: #e0e0e0;
+}
+
 .recommendedVideos__videos {
   display: flex;
   flex-wrap: wrap;
