@@ -11,3 +11,9 @@
 .suggestionBar::-webkit-scrollbar {
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .suggestionBar {
+    width: 90vw;
+  }
+}

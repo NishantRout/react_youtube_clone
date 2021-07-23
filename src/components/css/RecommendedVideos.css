@@ -2,3 +2,15 @@
   flex: 0.86;
   background-color: #f9f9f9;
 }
+
+.recommendedVideos__videos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .recommendedVideos {
+    flex: 1;
+  }
+}

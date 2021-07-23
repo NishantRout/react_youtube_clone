@@ -1,0 +1,23 @@
+.videoCard {
+  width: 360px;
+  margin-bottom: 40px;
+  padding: 0px 10px;
+}
+
+.videoCard__thumbnail {
+  height: 205px;
+}
+
+.video__info {
+  display: flex;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .videoCard {
+    width: 80vw;
+  }
+  .videoCard__thumbnail {
+    height: 210px;
+  }
+}
